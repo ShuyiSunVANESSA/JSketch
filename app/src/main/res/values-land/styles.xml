@@ -1,0 +1,13 @@
+<resources>
+    <style name="Main">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Colors">
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

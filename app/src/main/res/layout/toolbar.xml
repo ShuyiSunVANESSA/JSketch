@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Toolbar">
+
+    <ImageButton
+        android:id="@+id/selection_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/move" />
+    <ImageButton
+        android:id="@+id/erase_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/erase" />
+    <ImageButton
+        android:id="@+id/undo_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/undo" />
+    <ImageButton
+        android:id="@+id/redo_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/redo" />
+    <ImageButton
+        android:id="@+id/draw_square_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/square" />
+    <ImageButton
+        android:id="@+id/draw_circle_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/circle" />
+    <ImageButton
+        android:id="@+id/draw_line_tool"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:src="@drawable/create" />
+</LinearLayout>
